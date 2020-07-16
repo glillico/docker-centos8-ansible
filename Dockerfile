@@ -31,7 +31,8 @@ python3 \
 python3-pip \
 sudo \
 && dnf -y autoremove \
-&& dnf clean all
+&& dnf clean all \
+&& rm -rf /var/cache/dnf/*
 
 # Install ansible.
 RUN pip3 install ansible
