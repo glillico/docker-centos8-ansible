@@ -1,5 +1,7 @@
 # CentOS 8 Docker Image for Ansible Testing
 
+[![Build Status](https://github.com/glillico/docker-centos8-ansible/workflows/build/badge.svg)](https://github.com/glillico/docker-centos8-ansible/actions?query=workflow%3Abuild)
+
 A docker container using CentOS 8 with Ansible installed for playbook and role testing.
 
 ## Tags
