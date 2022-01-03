@@ -1,5 +1,11 @@
 # CentOS 8 Docker Image for Ansible Testing
 
+DEPRECATED - CentOS Linux 8 is End Of Life (EOL) as of December 31st 2021. For alternatives please see the below.
+
+  - [AlmaLinux 8](https://github.com/glillico/docker-almalinux8-ansible)
+  - [Oracle Linux 8](https://github.com/glillico/docker-oraclelinux8-ansible)
+  - [Rocky Linux 8](https://github.com/glillico/docker-rockylinux8-ansible)
+
 [![latest](https://github.com/glillico/docker-centos8-ansible/workflows/latest/badge.svg)](https://github.com/glillico/docker-centos8-ansible/actions?query=workflow%3Alatest)
 
 A docker container using CentOS 8 with Ansible installed for playbook and role testing.
